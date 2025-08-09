@@ -1,0 +1,25 @@
+
+{% extends "layout/base.html" %}
+{% load static %}
+{% block content %}
+    <div class="about-me">
+        <img src="{% static 'img/al.png' %}" alt="Profile Picture" class="profile-picture">
+        <h1>Jr Backend Developer</h1>
+        <p>My name is Alexi Ramirez</p>
+        <p>Welcome to my portfolio! I am a passionate developer with a keen interest in creating innovative solutions. My journey in tech has been driven by curiosity and a desire to learn continuously.</p>
+        <p>I am a computer technitian<p>
+    </div>
+    <div>
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, feel free to reach out via email at: aalberto.flores73@gmail.com </p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/alexi-alberto-ramirez-flores-746389301/"> 
+                <img src="{% static 'img/lk.png' %}" alt="LinkedIn" class="lk-picture">
+            </a>
+            <a href="https://github.com/AlexFlores1">
+                <img src="{% static 'img/github.png' %}" alt="GitHub" class="lk-picture">
+            </a>
+            
+        </div>
+    </div>
+{% endblock content %}

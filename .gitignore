@@ -1,0 +1,24 @@
+# Ignorar ambiente virtual
+env/
+venv/
+.venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de configuración de editor
+.vscode/
+.idea/
+
+# Archivos de migraciones si quieres (opcional)
+# **/migrations/
+
+# Archivos estáticos recopilados
+staticfiles/
+
+# Archivos de base de datos local
+db.sqlite3
+
+# Archivos de logs
+*.log

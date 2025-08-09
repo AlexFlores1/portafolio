@@ -1,0 +1,82 @@
+{% extends "layout/base.html" %}
+{% load static %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/skills.css' %}">
+{%endblock styles %}
+{% block head %}
+    <title>Skills - Alexi Ramirez</title>
+{% endblock head %}
+{% block title %}Skills{% endblock title %}
+
+{% block content %}
+    <div class="skills">
+    <h1>My Skills</h1>
+    <div class="skills-grid">
+        <div class="skill">
+            <i class="fas fa-server"></i>
+            <span>Backend Development</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <i class="fas fa-database"></i>
+            <span>MySQL and Postgres</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <i class="fas fa-plug"></i>
+            <span>Django Framework</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 65%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <i class="fas fa-bug"></i>
+            <span>Problem Solving & Debugging</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <i class="fab fa-git-alt"></i>
+            <span>Version Control with Git</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <i class="fab fa-git-alt"></i>
+            <span>C# .NET Framework</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 60%;"></div>
+            </div>
+        </div>
+
+         <div class="skill">
+            <i class="fab fa-git-alt"></i>
+            <span>Use of HTML and CSS</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <i class="fab fa-git-alt"></i>
+            <span>APIs Rest - Django rest FRM</span>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
