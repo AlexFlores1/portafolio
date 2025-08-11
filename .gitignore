@@ -15,11 +15,9 @@ __pycache__/
 # **/migrations/
 
 # Archivos estáticos recopilados
-staticfiles/
 
 # Archivos de base de datos local
 db.sqlite3
 
 # Archivos de logs
 *.log
-/staticfiles
